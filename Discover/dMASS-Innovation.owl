@@ -1,0 +1,4768 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/068875/ontologies/2018/9/dMASS-Innovation"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/068875/ontologies/2018/9/dMASS-Innovation">
+    <Prefix name="" IRI="http://www.semanticweb.org/068875/ontologies/2018/9/dMASS-Innovation#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">This is an ontology for the Innovation by dMASS</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#AcquiringUsefulEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Animals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#BySynthesis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Chemical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Coal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Combustion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ConvertingFuelsToElectricity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#DirectMechanicalOrKinetic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Electromagnetic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#FissionReaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#FuelCell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Fungiculture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#FusionReaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Geothermal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#GeothermalSteamPower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Gravity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#GroundSource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#GrowingAndProducing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Insects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#MaterialsAndManufacturing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Metal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Mineral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#NaturalGas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#NuclearReaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Oil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#OtherElectroChemical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Peat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Photoelectric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Piezoelectric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Plants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Shale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#SpaceFarming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#SteamOrHotWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#TemperatureDifferential"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ThroughAgriculture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ThroughAlgaculture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ThroughAquaculture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ThroughCloningAndGeneticReproduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ThroughMariculture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Vibration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#WaterSource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AccomodationAndFoodServiceActivities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AcquiringAndExtracting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActivitiesOfExtraterritorialOrganizationAndBodies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActivitiesOfHouseholdsAsEmployersUndifferentiatedGoodsAndServicesProducingActivitiesOfHouseholdsForOwnUse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AdministrativeAndSupportServiceActivities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgricultureForestryAndFishing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AirDistribution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AirFiltration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AirNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AirNode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AirStorage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AirVehcile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Airplane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ambient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Amplifies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnimalDrinking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnimalProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnimalProduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ApparelForAthletic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aquaculture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArtsEntertainmentAndRecreation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atmosphere"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BiProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BigDataInnovation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BioSource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biofuel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BiologicallyInspiredTechnologyAndProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BuildingServiceOrLifeSupportSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BuildingShell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BusinessSpace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ceiling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChemicalConversion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChemicalTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CircuitsAndElectronicComponentsAndMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CleaningAndSanitation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CleaningBuilding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CleaningContent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClonedMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cloning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clothing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collecting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CollectingMovingAndStoringInformation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComfortAndAesthetic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Commercial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CommunityParticipation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compacting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Composite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Composting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComputerHardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConnectivityInnovation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Construction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cooking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cooling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cosmetic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CosmeticService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CropAndAnimalProductionHuntingAndRelatedServiceActivities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Currents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CurriculaAndTeachingTechnique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DaylightTransmission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeliveringKnowledge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeliveringSpecificTypeOfCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DentalHealthManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desalinization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diagnostic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Directed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DisinfectingAndSanitizing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DisposalAndRecovery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disposing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DistillingRectifyingAndBlendingOfSpirits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DistributingCleanWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DistributingLight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DistributingPower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DomesticUse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Door"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EarthAggregate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EcologicalHealth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Education"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electiricy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electricity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectricityGasSteamAndAirconditioningSupply"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectricityStorage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electricitynode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EmergencyOrTemporaryDwelling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EmergencyResponseAndTransport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EmergencyTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EndOfLifeCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnergyPowerAndFuel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnhancingLearningAbilities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entertainment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EntertainmentOrVariableLighting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EquipmentAndSupply"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExerciseAndRelaxationTechnique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExerciseAndSport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpandingLifeExperienceIncludingTravel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExploringMiningExtractingRefiningMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExteriorSurfaceCovering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExtractionOfCrudePetroleum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExtractionOfCrudePretoleumAndNaturalGas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExtractionOfNaturalGas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExtractionOfPeat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExtractionOfSalt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FabricatingFinishedProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Facilities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fashion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Filtering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FilteringAndTreatingVirginWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Filters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Filtration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FinancialAndInsuranceActivities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FindingAndMonitoring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FineArtsAndMusic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FinishingOfTextiles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fishing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FishingAndAquaculture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Floor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForestryAndLogging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FossilResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FoundationOrFooting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FreightStorage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FreshWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FreshwaterAquaculture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FreshwaterFishing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FromAgriculture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FromAlgaculture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FromAquaculture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FromFreshwaterFishingAndAquaculture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FromMariculture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FromSaltwaterAndMariculture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FromSilvaculture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GasRecovery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GatheringOfNonwoodForestProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralClothingProvidingCoverage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralRestOrRelaxation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralRobotics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GivesOff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Glass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GreenChemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Groundwater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrowingOfBeverageCrops"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrowingOfCerealsExceptRiceLeguminousCropsAndOilSeeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrowingOfCitrusFruits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrowingOfFibreCrops"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrowingOfGrapes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrowingOfNonPerennialCrops"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrowingOfOleaginousFruits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrowingOfOtherNonPerennialCrops"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrowingOfOtherPerennialCrops"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrowingOfOtherTreeAndBushFruitsAndNuts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrowingOfPomeFruitsAndStoneFruits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrowingOfRice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrowingOfSpicesAromaticDrugAndPharmaceuticalCrops"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrowingOfSugarCane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrowingOfTobacco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrowingOfTropicalAndSubtropicalFruits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrowingOfVegetablesAndmelonsRootsAndTubers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrowingPerennialCrops"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrowingProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Health"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HeatCapture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HeatingAndCooling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hobby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HospitalOrMedical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanAndAnimalPower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanBenefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanDrinking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanHealthAndSocialWorkActivities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HuntingTrappingAndRealtedServiceActivities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HuntingTrappingAndRelatedServiceActivities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HybridTeaching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hydroelectric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hydrogen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indoor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndoorEmergencyLighting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Industrial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndustrialChemical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndustrialManufacturing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndustrialProcessing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndustrialUse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Industry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InfluencingReceptivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InformationAndCommunication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InformationSorageTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InformationStorage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InformationTechnologyDataHarvestingAndComputing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Informationnode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InfrastructureForDeliveringKnowledge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Innovation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InsectOrPestRepellant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insulating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InteractiveElectronics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InteriorSurfaceCovering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InternetEnabledDevice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InternetPortalAndExchange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InterventionToolAndProcedure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InventingAndExperimenting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Irrigation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KineticEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kinetic_energy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LaserLighting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LifeLearning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Light"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LightMagnification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lighting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LightingControlAndManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LightingIndoor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LightingOutdoor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Liquid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LiquificationOrGasification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Logging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LongTermCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaintainingTemperatureAndAirQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManagingHealthcare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManagingWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureOfBakeryProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureOfBeverages"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureOfCarpetsAndRugs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureOfCocoaChocolateAndSugarConfectionary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureOfCordageRopeTwineAndNetting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureOfDairyProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureOfGrainMillProductsStarchesAndStarchProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureOfMacaroniNoodlesCouscousAndSimilarFarinaceousProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureOfMadeUpTextileArticlesExceptApparel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureOfMaltLiquorsAndMalt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureOfOtherFoodProductsNEC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureOfOtherTextileNEC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureOfPreparedAnimalFeeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureOfPreparedMealsAndDishes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureOfSoftDrinksProductionOfMineralWatersAndOtherBottledWaters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureOfStarchesAndStarchProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureOfSugar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureOfTobaccoProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureOfVegetableAndAnimalOilsAndFats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureOfWines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureofGrainMillProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureofKnittedAndCrochetedFabrics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufactureofOtherFoodProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manufacturing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufacturingOfFoodProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufacturingOfOtherTextiles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufacturingOfTextiles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MarineAquaculture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MarineFishing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Material"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Materials_Attributes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicalDevice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetalAndAlloy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MethodForDeliveringKnowledge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MethodForDeliveringMedicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiningAndQuarrying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiningAndQuarryingNEC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiningOfChemicalAndFertilizerMinerals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiningOfCoalAndIgnite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiningOfHardCoal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiningOfIgnite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiningOfIronOres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiningOfMetalOnes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiningOfNonFerrousMetalOres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiningOfOtherNonFerrousMetalOres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiningOfUraniumAndThoriumOres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiningSupportServiceActivities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MixedFarming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MobileApp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MobileHardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MonitoringAndControl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MovingAndStoringElectricity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MovingAndStoringGoods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MovingPeople"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MovingPeopleWithinBuildings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MultiFamilyDwelling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonMetalSource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NuclearResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Office"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OnTheJobTraining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OnlineLeasingAndRentingOfGood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OpenSourceInnovationPlatform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherBioSource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherCommercialAndMixedUse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherExploringMiningExtractingRefiningMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherFilteringAndTreatingVirginWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherFinishedMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherFossilDerivate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherFossilDerivative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherFuelConversionToElectricity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherGrowingAndProducingMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherIndustrialProcessing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherKnowledgeConveyance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherMaterialAttributes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherMiningAndQuarrying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherMiningAndQuarryingNEC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherRenewableEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherServiceActivities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherSpecialFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherSpecializedLighting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherUsefulEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherWasteSource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherWaterAcquiringAndExtracting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outdoor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutdoorEmergencyLighting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OwnershipModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OwningAndOccupancyModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Packaging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PersonalDevelopment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PersonalSafety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PipelineNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PipelineSystemStorage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlantMetabolism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlantProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlantPropagation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plastic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plumbing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Polymer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PortableLigting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostHarvestCropActivities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreparationAndSpinningOfTextileFibres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Preparing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Preserving"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreventingAndTreatingDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrintedMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Processing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProcessingAndPreservingOfFishCrustaceansAndMolluscs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProcessingAndPreservingOfMeat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProcessingAndPresevingOfFruitAndVegetables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProducingFinishedMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProfessionalScientificAndTechnicalActivities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProvideSpecificFunctionsOfBuildingOrStructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProvideSpecificShelterType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProvidesPower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProvidingSecurity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PublicAdministrationAndDefenceCompulsarySocialSecurity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PublicHealthCampaign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QuarryingOfStoneSandAndClay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RailNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RailStorage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RailSystemNode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RailVehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rainwater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RaisingOfCamelsAndCamelids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RaisingOfCattleAndBuffaloes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RaisingOfHorsesAndOtherEquines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RaisingOfOtherAnimals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RaisingOfPoultry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RaisingOfSheepAndGoats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RaisingOfSwineOrPigs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reading"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RealEstateActivities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RecordAndDataManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recovery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RecoveryWastewater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recreation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recycling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RecyclingAndReclaimingInnovation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RefininFinishedMaterialForProductManufacturing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Refining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reflects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RehabilitativeCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RemoteCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RenewableEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RescueAndSurveillanceTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reservoir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Residential"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResistsBlocksAbsorbs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Retains"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reusing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoadNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoadSystemNode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoadVehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roof"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SICCodes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sanitizing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sediment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeedProcessingForPropagation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SelfImage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SellingAndBuying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SensorTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Setting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shelter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShippingNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShippingNode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SilvicultureAndOtherForestryActivities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SingleFamilyDwelling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Solar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SolarElectric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SolarThermal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpinningWeavingAndFinishingOfTextiles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SportsLighting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StaysClean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Storing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StreetLighting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StructuralCharacteristics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StructuralSystemElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StructureAndBuildingEnvelope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SunProtection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SupportActivitiesForAnimalProduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SupportActivitiesForCropProduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SupportActivitiesForOtherMiningAndQuarrying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SupportActivitiesForPetroleumAndNaturalGasExtraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SupportActivitiesToAgricultureAndPostHarvestCropActivities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SupportServicesToForestry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SurfaceCharacteristics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SurfaceWaters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Synthesis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SyntheticBiologyInnovation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TeachingByDirectHumanInteraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TeachingPrimarilyViaMediaIncludingOnline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemperatureControl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TheaterLighting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tides"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transfers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TransportationAndStorage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TransportingAndDistributing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TravelDwelling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TreatingWastewater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UsingWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vactiontravel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VehicleLighting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ViaAir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ViaElectricityNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ViaNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ViaPipeline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ViaRail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ViaRoad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ViaWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VirtualTransport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Warming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WasteHarvestingAndResourceRecovery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WasteSource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WasteToEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wastewater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WastewaterCollection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WaterAndWasteWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WaterOrLiquid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WaterOrMoistureControl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WaterSupplySewerageWasteManagementAndRemediationActivities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Waves"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WeavingOfTextiles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcyles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wind"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Window"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WirelessChargingSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yield"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInnovator"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMaterial"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMaterialOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aluminum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ceramic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Glass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GlassFloor_Advanced_Flooring_System_for_Athletic_Courts"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#AcquiringUsefulEnergy"/>
+        <Class IRI="#EnergyPowerAndFuel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Animals"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ThroughAgriculture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Animals"/>
+        <Class IRI="#FromAgriculture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#BySynthesis"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#GrowingAndProducing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Chemical"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Coal"/>
+        <Class IRI="#FossilResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Combustion"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#SteamOrHotWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Combustion"/>
+        <Class IRI="#WasteToEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ConvertingFuelsToElectricity"/>
+        <Class IRI="#EnergyPowerAndFuel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#DirectMechanicalOrKinetic"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ConvertingFuelsToElectricity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Electromagnetic"/>
+        <Class IRI="#Amplifies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Electromagnetic"/>
+        <Class IRI="#Filters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Electromagnetic"/>
+        <Class IRI="#GivesOff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Electromagnetic"/>
+        <Class IRI="#OtherRenewableEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Electromagnetic"/>
+        <Class IRI="#Reflects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Electromagnetic"/>
+        <Class IRI="#ResistsBlocksAbsorbs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Electromagnetic"/>
+        <Class IRI="#Retains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Electromagnetic"/>
+        <Class IRI="#Transfers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#FissionReaction"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#NuclearReaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#FuelCell"/>
+        <Class IRI="#ChemicalConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Fungiculture"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#GrowingAndProducing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Fungiculture"/>
+        <Class IRI="#BioSource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Fungiculture"/>
+        <Class IRI="#Biofuel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#FusionReaction"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#NuclearReaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Geothermal"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#AcquiringUsefulEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Geothermal"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#SteamOrHotWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#GeothermalSteamPower"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Geothermal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Gravity"/>
+        <Class IRI="#FilteringAndTreatingVirginWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Gravity"/>
+        <Class IRI="#OtherRenewableEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Gravity"/>
+        <Class IRI="#TreatingWastewater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#GroundSource"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Geothermal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#GrowingAndProducing"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Insects"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ThroughAgriculture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#MaterialsAndManufacturing"/>
+        <Class IRI="#HumanBenefit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Metal"/>
+        <Class IRI="#ExploringMiningExtractingRefiningMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Metal"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Mineral"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Metal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Mineral"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#NaturalGas"/>
+        <Class IRI="#FossilResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#NuclearReaction"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#SteamOrHotWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Oil"/>
+        <Class IRI="#FossilResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#OtherElectroChemical"/>
+        <Class IRI="#ChemicalConversion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Peat"/>
+        <Class IRI="#FossilResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Photoelectric"/>
+        <Class IRI="#OtherFuelConversionToElectricity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Piezoelectric"/>
+        <Class IRI="#OtherFuelConversionToElectricity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Plants"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ThroughAgriculture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Plants"/>
+        <Class IRI="#FromAgriculture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Plants"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Shale"/>
+        <Class IRI="#FossilResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#SpaceFarming"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#GrowingAndProducing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#SteamOrHotWater"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ConvertingFuelsToElectricity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#TemperatureDifferential"/>
+        <Class IRI="#OtherRenewableEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#TemperatureDifferential"/>
+        <Class IRI="#Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ThroughAgriculture"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#GrowingAndProducing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ThroughAlgaculture"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#GrowingAndProducing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ThroughAquaculture"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#GrowingAndProducing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ThroughCloningAndGeneticReproduction"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#GrowingAndProducing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ThroughMariculture"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#GrowingAndProducing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Vibration"/>
+        <Class IRI="#OtherRenewableEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#WaterSource"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Geothermal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AccomodationAndFoodServiceActivities"/>
+        <Class IRI="#SICCodes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AcquiringAndExtracting"/>
+        <Class IRI="#WaterAndWasteWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActivitiesOfExtraterritorialOrganizationAndBodies"/>
+        <Class IRI="#SICCodes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActivitiesOfHouseholdsAsEmployersUndifferentiatedGoodsAndServicesProducingActivitiesOfHouseholdsForOwnUse"/>
+        <Class IRI="#SICCodes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AdministrativeAndSupportServiceActivities"/>
+        <Class IRI="#SICCodes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgricultureForestryAndFishing"/>
+        <Class IRI="#SICCodes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AirDistribution"/>
+        <Class IRI="#MaintainingTemperatureAndAirQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AirFiltration"/>
+        <Class IRI="#MaintainingTemperatureAndAirQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AirNetwork"/>
+        <Class IRI="#ViaAir"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AirNode"/>
+        <Class IRI="#ViaAir"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AirStorage"/>
+        <Class IRI="#ViaAir"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AirVehcile"/>
+        <Class IRI="#ViaAir"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Airplane"/>
+        <Class IRI="#ViaAir"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ambient"/>
+        <Class IRI="#LightingIndoor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ambient"/>
+        <Class IRI="#LightingOutdoor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Amplifies"/>
+        <Class IRI="#Materials_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnimalDrinking"/>
+        <Class IRI="#UsingWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnimalProduct"/>
+        <Class IRI="#Biofuel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnimalProduct"/>
+        <Class IRI="#ProducingFinishedMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnimalProduction"/>
+        <Class IRI="#CropAndAnimalProductionHuntingAndRelatedServiceActivities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApparelForAthletic"/>
+        <Class IRI="#GeneralClothingProvidingCoverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aquaculture"/>
+        <Class IRI="#FishingAndAquaculture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArtsEntertainmentAndRecreation"/>
+        <Class IRI="#SICCodes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atmosphere"/>
+        <Class IRI="#AcquiringAndExtracting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BiProduct"/>
+        <Class IRI="#AnimalProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BiProduct"/>
+        <Class IRI="#PlantProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BigDataInnovation"/>
+        <Class IRI="#InformationTechnologyDataHarvestingAndComputing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BioSource"/>
+        <Class IRI="#ExploringMiningExtractingRefiningMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biofuel"/>
+        <Class IRI="#RenewableEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BiologicallyInspiredTechnologyAndProcess"/>
+        <Class IRI="#EcologicalHealth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BuildingServiceOrLifeSupportSystem"/>
+        <Class IRI="#ProvideSpecificFunctionsOfBuildingOrStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BuildingShell"/>
+        <Class IRI="#StructureAndBuildingEnvelope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ceiling"/>
+        <Class IRI="#BuildingShell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChemicalConversion"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ConvertingFuelsToElectricity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChemicalTreatment"/>
+        <Class IRI="#FilteringAndTreatingVirginWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChemicalTreatment"/>
+        <Class IRI="#TreatingWastewater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CircuitsAndElectronicComponentsAndMaterial"/>
+        <Class IRI="#InformationTechnologyDataHarvestingAndComputing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CleaningAndSanitation"/>
+        <Class IRI="#EcologicalHealth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CleaningBuilding"/>
+        <Class IRI="#BuildingServiceOrLifeSupportSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CleaningContent"/>
+        <Class IRI="#BuildingServiceOrLifeSupportSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClonedMaterial"/>
+        <Class IRI="#IndustrialManufacturing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cloning"/>
+        <Class IRI="#BioSource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clothing"/>
+        <Class IRI="#HumanBenefit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collecting"/>
+        <Class IRI="#DisposalAndRecovery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CollectingMovingAndStoringInformation"/>
+        <Class IRI="#Mobility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComfortAndAesthetic"/>
+        <Class IRI="#BuildingServiceOrLifeSupportSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Commercial"/>
+        <Class IRI="#ProvideSpecificShelterType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommunityParticipation"/>
+        <Class IRI="#Recreation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compacting"/>
+        <Class IRI="#DisposalAndRecovery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Composite"/>
+        <Class IRI="#ProducingFinishedMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Composting"/>
+        <Class IRI="#DisposalAndRecovery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compression"/>
+        <Class IRI="#StructuralCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComputerHardware"/>
+        <Class IRI="#InformationTechnologyDataHarvestingAndComputing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conducts"/>
+        <Class IRI="#Materials_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConnectivityInnovation"/>
+        <Class IRI="#InformationTechnologyDataHarvestingAndComputing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Construction"/>
+        <Class IRI="#SICCodes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cooking"/>
+        <Class IRI="#Preparing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cooling"/>
+        <Class IRI="#TemperatureControl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cosmetic"/>
+        <Class IRI="#SelfImage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CosmeticService"/>
+        <Class IRI="#SelfImage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CropAndAnimalProductionHuntingAndRelatedServiceActivities"/>
+        <Class IRI="#AgricultureForestryAndFishing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Currents"/>
+        <Class IRI="#Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CurriculaAndTeachingTechnique"/>
+        <Class IRI="#EnhancingLearningAbilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DaylightTransmission"/>
+        <Class IRI="#LightingIndoor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeliveringKnowledge"/>
+        <Class IRI="#Education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeliveringSpecificTypeOfCare"/>
+        <Class IRI="#Health"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DentalHealthManagement"/>
+        <Class IRI="#PreventingAndTreatingDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desalinization"/>
+        <Class IRI="#AcquiringAndExtracting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diagnostic"/>
+        <Class IRI="#PreventingAndTreatingDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Directed"/>
+        <Class IRI="#LightingIndoor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Directed"/>
+        <Class IRI="#LightingOutdoor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DisinfectingAndSanitizing"/>
+        <Class IRI="#PreventingAndTreatingDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DisposalAndRecovery"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disposing"/>
+        <Class IRI="#DisposalAndRecovery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistillingRectifyingAndBlendingOfSpirits"/>
+        <Class IRI="#ManufactureOfBeverages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistributingCleanWater"/>
+        <Class IRI="#WaterAndWasteWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistributingLight"/>
+        <Class IRI="#BuildingServiceOrLifeSupportSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistributingPower"/>
+        <Class IRI="#BuildingServiceOrLifeSupportSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DomesticUse"/>
+        <Class IRI="#UsingWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Door"/>
+        <Class IRI="#BuildingShell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EarthAggregate"/>
+        <Class IRI="#ExploringMiningExtractingRefiningMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EarthAggregate"/>
+        <Class IRI="#Sediment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EcologicalHealth"/>
+        <Class IRI="#HumanBenefit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Education"/>
+        <Class IRI="#HumanBenefit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Education"/>
+        <Class IRI="#SICCodes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electiricy"/>
+        <Class IRI="#Transfers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electricity"/>
+        <Class IRI="#Amplifies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electricity"/>
+        <Class IRI="#Filters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electricity"/>
+        <Class IRI="#GivesOff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electricity"/>
+        <Class IRI="#Reflects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electricity"/>
+        <Class IRI="#ResistsBlocksAbsorbs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electricity"/>
+        <Class IRI="#Retains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricityGasSteamAndAirconditioningSupply"/>
+        <Class IRI="#SICCodes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricityStorage"/>
+        <Class IRI="#MovingAndStoringElectricity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electricitynode"/>
+        <Class IRI="#MovingAndStoringElectricity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EmergencyOrTemporaryDwelling"/>
+        <Class IRI="#Residential"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EmergencyResponseAndTransport"/>
+        <Class IRI="#DeliveringSpecificTypeOfCare"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EmergencyTreatment"/>
+        <Class IRI="#DeliveringSpecificTypeOfCare"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EndOfLifeCare"/>
+        <Class IRI="#DeliveringSpecificTypeOfCare"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnergyPowerAndFuel"/>
+        <Class IRI="#Innovation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnhancingLearningAbilities"/>
+        <Class IRI="#Education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entertainment"/>
+        <Class IRI="#Recreation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EntertainmentOrVariableLighting"/>
+        <Class IRI="#OtherSpecializedLighting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EquipmentAndSupply"/>
+        <Class IRI="#InfrastructureForDeliveringKnowledge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExerciseAndRelaxationTechnique"/>
+        <Class IRI="#PreventingAndTreatingDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExerciseAndSport"/>
+        <Class IRI="#Recreation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpandingLifeExperienceIncludingTravel"/>
+        <Class IRI="#MethodForDeliveringKnowledge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExploringMiningExtractingRefiningMaterial"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#MaterialsAndManufacturing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExteriorSurfaceCovering"/>
+        <Class IRI="#Wall"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExtractionOfCrudePetroleum"/>
+        <Class IRI="#ExtractionOfCrudePetroleum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExtractionOfCrudePetroleum"/>
+        <Class IRI="#ExtractionOfCrudePretoleumAndNaturalGas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExtractionOfCrudePretoleumAndNaturalGas"/>
+        <Class IRI="#MiningAndQuarrying"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExtractionOfNaturalGas"/>
+        <Class IRI="#ExtractionOfCrudePretoleumAndNaturalGas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExtractionOfNaturalGas"/>
+        <Class IRI="#ExtractionOfNaturalGas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExtractionOfPeat"/>
+        <Class IRI="#MiningAndQuarryingNEC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExtractionOfSalt"/>
+        <Class IRI="#MiningAndQuarryingNEC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FabricatingFinishedProduct"/>
+        <Class IRI="#RefininFinishedMaterialForProductManufacturing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Facilities"/>
+        <Class IRI="#InfrastructureForDeliveringKnowledge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fashion"/>
+        <Class IRI="#SelfImage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Filtering"/>
+        <Class IRI="#TreatingWastewater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FilteringAndTreatingVirginWater"/>
+        <Class IRI="#WaterAndWasteWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Filters"/>
+        <Class IRI="#Sorts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Filtration"/>
+        <Class IRI="#FilteringAndTreatingVirginWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FinancialAndInsuranceActivities"/>
+        <Class IRI="#SICCodes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FindingAndMonitoring"/>
+        <Class IRI="#WaterAndWasteWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FineArtsAndMusic"/>
+        <Class IRI="#Recreation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FinishingOfTextiles"/>
+        <Class IRI="#SpinningWeavingAndFinishingOfTextiles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fishing"/>
+        <Class IRI="#FishingAndAquaculture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FishingAndAquaculture"/>
+        <Class IRI="#AgricultureForestryAndFishing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Floor"/>
+        <Class IRI="#BuildingShell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food"/>
+        <Class IRI="#HumanBenefit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ForestryAndLogging"/>
+        <Class IRI="#AgricultureForestryAndFishing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FossilResource"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#AcquiringUsefulEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FossilResource"/>
+        <Class IRI="#ExploringMiningExtractingRefiningMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FoundationOrFooting"/>
+        <Class IRI="#StructureAndBuildingEnvelope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FreightStorage"/>
+        <Class IRI="#ViaRoad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FreshWater"/>
+        <Class IRI="#ManagingWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FreshwaterAquaculture"/>
+        <Class IRI="#Aquaculture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FreshwaterFishing"/>
+        <Class IRI="#Fishing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FromAgriculture"/>
+        <Class IRI="#BioSource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FromAgriculture"/>
+        <Class IRI="#Biofuel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FromAlgaculture"/>
+        <Class IRI="#BioSource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FromAlgaculture"/>
+        <Class IRI="#Biofuel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FromAquaculture"/>
+        <Class IRI="#Biofuel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FromFreshwaterFishingAndAquaculture"/>
+        <Class IRI="#BioSource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FromMariculture"/>
+        <Class IRI="#Biofuel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FromSaltwaterAndMariculture"/>
+        <Class IRI="#BioSource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FromSilvaculture"/>
+        <Class IRI="#BioSource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FromSilvaculture"/>
+        <Class IRI="#Biofuel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GasRecovery"/>
+        <Class IRI="#WasteToEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GatheringOfNonwoodForestProducts"/>
+        <Class IRI="#ForestryAndLogging"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GatheringOfNonwoodForestProducts"/>
+        <Class IRI="#GatheringOfNonwoodForestProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneralClothingProvidingCoverage"/>
+        <Class IRI="#Clothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneralRestOrRelaxation"/>
+        <Class IRI="#Recreation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneralRobotics"/>
+        <Class IRI="#InformationTechnologyDataHarvestingAndComputing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GivesOff"/>
+        <Class IRI="#Yield"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Glass"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GreenChemistry"/>
+        <Class IRI="#EcologicalHealth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Groundwater"/>
+        <Class IRI="#AcquiringAndExtracting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrowingOfBeverageCrops"/>
+        <Class IRI="#GrowingPerennialCrops"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrowingOfCerealsExceptRiceLeguminousCropsAndOilSeeds"/>
+        <Class IRI="#GrowingOfNonPerennialCrops"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrowingOfCitrusFruits"/>
+        <Class IRI="#GrowingPerennialCrops"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrowingOfFibreCrops"/>
+        <Class IRI="#GrowingOfNonPerennialCrops"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrowingOfGrapes"/>
+        <Class IRI="#GrowingPerennialCrops"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrowingOfNonPerennialCrops"/>
+        <Class IRI="#CropAndAnimalProductionHuntingAndRelatedServiceActivities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrowingOfOleaginousFruits"/>
+        <Class IRI="#GrowingPerennialCrops"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrowingOfOtherNonPerennialCrops"/>
+        <Class IRI="#GrowingOfNonPerennialCrops"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrowingOfOtherPerennialCrops"/>
+        <Class IRI="#GrowingPerennialCrops"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrowingOfOtherTreeAndBushFruitsAndNuts"/>
+        <Class IRI="#GrowingPerennialCrops"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrowingOfPomeFruitsAndStoneFruits"/>
+        <Class IRI="#GrowingPerennialCrops"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrowingOfRice"/>
+        <Class IRI="#GrowingOfNonPerennialCrops"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrowingOfSpicesAromaticDrugAndPharmaceuticalCrops"/>
+        <Class IRI="#GrowingPerennialCrops"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrowingOfSugarCane"/>
+        <Class IRI="#GrowingOfNonPerennialCrops"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrowingOfTobacco"/>
+        <Class IRI="#GrowingOfNonPerennialCrops"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrowingOfTropicalAndSubtropicalFruits"/>
+        <Class IRI="#GrowingPerennialCrops"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrowingOfVegetablesAndmelonsRootsAndTubers"/>
+        <Class IRI="#GrowingOfNonPerennialCrops"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrowingPerennialCrops"/>
+        <Class IRI="#CropAndAnimalProductionHuntingAndRelatedServiceActivities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrowingProduct"/>
+        <Class IRI="#IndustrialManufacturing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Health"/>
+        <Class IRI="#HumanBenefit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heat"/>
+        <Class IRI="#Amplifies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heat"/>
+        <Class IRI="#Filters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heat"/>
+        <Class IRI="#GivesOff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heat"/>
+        <Class IRI="#Reflects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heat"/>
+        <Class IRI="#ResistsBlocksAbsorbs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heat"/>
+        <Class IRI="#Retains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heat"/>
+        <Class IRI="#Transfers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HeatCapture"/>
+        <Class IRI="#WasteToEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heating"/>
+        <Class IRI="#FilteringAndTreatingVirginWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heating"/>
+        <Class IRI="#TreatingWastewater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HeatingAndCooling"/>
+        <Class IRI="#MaintainingTemperatureAndAirQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hobby"/>
+        <Class IRI="#Recreation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HospitalOrMedical"/>
+        <Class IRI="#Commercial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanAndAnimalPower"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#AcquiringUsefulEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanBenefit"/>
+        <Class IRI="#Innovation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanDrinking"/>
+        <Class IRI="#UsingWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanHealthAndSocialWorkActivities"/>
+        <Class IRI="#SICCodes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HuntingTrappingAndRealtedServiceActivities"/>
+        <Class IRI="#HuntingTrappingAndRelatedServiceActivities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HuntingTrappingAndRelatedServiceActivities"/>
+        <Class IRI="#CropAndAnimalProductionHuntingAndRelatedServiceActivities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HybridTeaching"/>
+        <Class IRI="#MethodForDeliveringKnowledge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hydroelectric"/>
+        <Class IRI="#Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hydrogen"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#AcquiringUsefulEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indoor"/>
+        <Class IRI="#DistributingLight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndoorEmergencyLighting"/>
+        <Class IRI="#LightingIndoor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#ProvideSpecificShelterType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndustrialChemical"/>
+        <Class IRI="#ProducingFinishedMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndustrialManufacturing"/>
+        <Class IRI="#FabricatingFinishedProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndustrialProcessing"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndustrialUse"/>
+        <Class IRI="#UsingWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InfluencingReceptivity"/>
+        <Class IRI="#EnhancingLearningAbilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationAndCommunication"/>
+        <Class IRI="#SICCodes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationSorageTechnology"/>
+        <Class IRI="#InformationTechnologyDataHarvestingAndComputing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationStorage"/>
+        <Class IRI="#ViaNetwork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationTechnologyDataHarvestingAndComputing"/>
+        <Class IRI="#Innovation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Informationnode"/>
+        <Class IRI="#ViaNetwork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InfrastructureForDeliveringKnowledge"/>
+        <Class IRI="#DeliveringKnowledge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InsectOrPestRepellant"/>
+        <Class IRI="#GeneralClothingProvidingCoverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulating"/>
+        <Class IRI="#MaintainingTemperatureAndAirQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InteractiveElectronics"/>
+        <Class IRI="#InformationTechnologyDataHarvestingAndComputing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InteriorSurfaceCovering"/>
+        <Class IRI="#Wall"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InternetEnabledDevice"/>
+        <Class IRI="#InformationTechnologyDataHarvestingAndComputing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InternetPortalAndExchange"/>
+        <Class IRI="#InformationTechnologyDataHarvestingAndComputing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InterventionToolAndProcedure"/>
+        <Class IRI="#PreventingAndTreatingDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InventingAndExperimenting"/>
+        <Class IRI="#Recreation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irrigation"/>
+        <Class IRI="#UsingWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KineticEnergy"/>
+        <Class IRI="#Amplifies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KineticEnergy"/>
+        <Class IRI="#Filters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KineticEnergy"/>
+        <Class IRI="#GivesOff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KineticEnergy"/>
+        <Class IRI="#ResistsBlocksAbsorbs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KineticEnergy"/>
+        <Class IRI="#Retains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KineticEnergy"/>
+        <Class IRI="#Transfers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kinetic_energy"/>
+        <Class IRI="#Reflects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LaserLighting"/>
+        <Class IRI="#OtherSpecializedLighting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LifeLearning"/>
+        <Class IRI="#Recreation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Light"/>
+        <Class IRI="#Amplifies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Light"/>
+        <Class IRI="#Filters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Light"/>
+        <Class IRI="#GivesOff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Light"/>
+        <Class IRI="#Reflects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Light"/>
+        <Class IRI="#ResistsBlocksAbsorbs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Light"/>
+        <Class IRI="#Retains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Light"/>
+        <Class IRI="#Transfers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LightMagnification"/>
+        <Class IRI="#LightingIndoor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lighting"/>
+        <Class IRI="#HumanBenefit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LightingControlAndManagement"/>
+        <Class IRI="#Lighting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LightingIndoor"/>
+        <Class IRI="#Lighting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LightingOutdoor"/>
+        <Class IRI="#Lighting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liquid"/>
+        <Class IRI="#Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LiquificationOrGasification"/>
+        <Class IRI="#WasteToEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Logging"/>
+        <Class IRI="#ForestryAndLogging"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Logging"/>
+        <Class IRI="#Logging"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LongTermCare"/>
+        <Class IRI="#DeliveringSpecificTypeOfCare"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaintainingTemperatureAndAirQuality"/>
+        <Class IRI="#BuildingServiceOrLifeSupportSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManagingHealthcare"/>
+        <Class IRI="#Health"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManagingWater"/>
+        <Class IRI="#BuildingServiceOrLifeSupportSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfBakeryProducts"/>
+        <Class IRI="#ManufactureofOtherFoodProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfBeverages"/>
+        <Class IRI="#Manufacturing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfCarpetsAndRugs"/>
+        <Class IRI="#ManufacturingOfOtherTextiles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfCocoaChocolateAndSugarConfectionary"/>
+        <Class IRI="#ManufactureofOtherFoodProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfCordageRopeTwineAndNetting"/>
+        <Class IRI="#ManufacturingOfOtherTextiles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfDairyProducts"/>
+        <Class IRI="#ManufactureOfDairyProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfDairyProducts"/>
+        <Class IRI="#ManufacturingOfFoodProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfGrainMillProductsStarchesAndStarchProducts"/>
+        <Class IRI="#ManufacturingOfFoodProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfMacaroniNoodlesCouscousAndSimilarFarinaceousProducts"/>
+        <Class IRI="#ManufactureofOtherFoodProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfMadeUpTextileArticlesExceptApparel"/>
+        <Class IRI="#ManufacturingOfOtherTextiles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfMaltLiquorsAndMalt"/>
+        <Class IRI="#ManufactureOfBeverages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfOtherFoodProductsNEC"/>
+        <Class IRI="#ManufactureofOtherFoodProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfOtherTextileNEC"/>
+        <Class IRI="#ManufacturingOfOtherTextiles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfPreparedAnimalFeeds"/>
+        <Class IRI="#ManufactureOfPreparedAnimalFeeds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfPreparedAnimalFeeds"/>
+        <Class IRI="#ManufacturingOfFoodProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfPreparedMealsAndDishes"/>
+        <Class IRI="#ManufactureofOtherFoodProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfSoftDrinksProductionOfMineralWatersAndOtherBottledWaters"/>
+        <Class IRI="#ManufactureOfBeverages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfStarchesAndStarchProducts"/>
+        <Class IRI="#ManufactureOfGrainMillProductsStarchesAndStarchProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfSugar"/>
+        <Class IRI="#ManufactureofOtherFoodProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfTobaccoProducts"/>
+        <Class IRI="#ManufactureOfTobaccoProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfTobaccoProducts"/>
+        <Class IRI="#Manufacturing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfVegetableAndAnimalOilsAndFats"/>
+        <Class IRI="#ManufactureOfVegetableAndAnimalOilsAndFats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfVegetableAndAnimalOilsAndFats"/>
+        <Class IRI="#ManufacturingOfFoodProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureOfWines"/>
+        <Class IRI="#ManufactureOfBeverages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureofGrainMillProducts"/>
+        <Class IRI="#ManufactureOfGrainMillProductsStarchesAndStarchProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureofKnittedAndCrochetedFabrics"/>
+        <Class IRI="#ManufacturingOfOtherTextiles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufactureofOtherFoodProducts"/>
+        <Class IRI="#ManufacturingOfFoodProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manufacturing"/>
+        <Class IRI="#SICCodes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufacturingOfFoodProducts"/>
+        <Class IRI="#Manufacturing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufacturingOfOtherTextiles"/>
+        <Class IRI="#ManufacturingOfTextiles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManufacturingOfTextiles"/>
+        <Class IRI="#Manufacturing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarineAquaculture"/>
+        <Class IRI="#Aquaculture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarineFishing"/>
+        <Class IRI="#Fishing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalDevice"/>
+        <Class IRI="#PreventingAndTreatingDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medicine"/>
+        <Class IRI="#PreventingAndTreatingDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetalAndAlloy"/>
+        <Class IRI="#ProducingFinishedMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MethodForDeliveringKnowledge"/>
+        <Class IRI="#DeliveringKnowledge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MethodForDeliveringMedicine"/>
+        <Class IRI="#PreventingAndTreatingDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiningAndQuarrying"/>
+        <Class IRI="#SICCodes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiningAndQuarryingNEC"/>
+        <Class IRI="#OtherMiningAndQuarrying"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiningOfChemicalAndFertilizerMinerals"/>
+        <Class IRI="#MiningAndQuarryingNEC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiningOfCoalAndIgnite"/>
+        <Class IRI="#MiningAndQuarrying"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiningOfHardCoal"/>
+        <Class IRI="#MiningOfCoalAndIgnite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiningOfHardCoal"/>
+        <Class IRI="#MiningOfHardCoal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiningOfIgnite"/>
+        <Class IRI="#MiningOfCoalAndIgnite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiningOfIronOres"/>
+        <Class IRI="#MiningOfIronOres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiningOfIronOres"/>
+        <Class IRI="#MiningOfMetalOnes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiningOfMetalOnes"/>
+        <Class IRI="#MiningAndQuarrying"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiningOfNonFerrousMetalOres"/>
+        <Class IRI="#MiningOfMetalOnes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiningOfOtherNonFerrousMetalOres"/>
+        <Class IRI="#MiningOfNonFerrousMetalOres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiningOfUraniumAndThoriumOres"/>
+        <Class IRI="#MiningOfNonFerrousMetalOres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiningSupportServiceActivities"/>
+        <Class IRI="#MiningAndQuarrying"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MixedFarming"/>
+        <Class IRI="#CropAndAnimalProductionHuntingAndRelatedServiceActivities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MixedFarming"/>
+        <Class IRI="#MixedFarming"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MobileApp"/>
+        <Class IRI="#InformationTechnologyDataHarvestingAndComputing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MobileHardware"/>
+        <Class IRI="#InformationTechnologyDataHarvestingAndComputing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobility"/>
+        <Class IRI="#HumanBenefit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MonitoringAndControl"/>
+        <Class IRI="#ProvideSpecificFunctionsOfBuildingOrStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MovingAndStoringElectricity"/>
+        <Class IRI="#Mobility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MovingAndStoringGoods"/>
+        <Class IRI="#Mobility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MovingPeople"/>
+        <Class IRI="#Mobility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MovingPeopleWithinBuildings"/>
+        <Class IRI="#BuildingServiceOrLifeSupportSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MultiFamilyDwelling"/>
+        <Class IRI="#Residential"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonMetalSource"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Mineral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NuclearResource"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#AcquiringUsefulEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Office"/>
+        <Class IRI="#Commercial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OnTheJobTraining"/>
+        <Class IRI="#MethodForDeliveringKnowledge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OnlineLeasingAndRentingOfGood"/>
+        <Class IRI="#InformationTechnologyDataHarvestingAndComputing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OpenSourceInnovationPlatform"/>
+        <Class IRI="#InformationTechnologyDataHarvestingAndComputing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherBioSource"/>
+        <Class IRI="#BioSource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherCommercialAndMixedUse"/>
+        <Class IRI="#Commercial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherExploringMiningExtractingRefiningMaterial"/>
+        <Class IRI="#ExploringMiningExtractingRefiningMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherFilteringAndTreatingVirginWater"/>
+        <Class IRI="#FilteringAndTreatingVirginWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherFinishedMaterial"/>
+        <Class IRI="#ProducingFinishedMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherFossilDerivate"/>
+        <Class IRI="#FossilResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherFossilDerivative"/>
+        <Class IRI="#FossilResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherFuelConversionToElectricity"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ConvertingFuelsToElectricity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherGrowingAndProducingMethod"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#GrowingAndProducing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherIndustrialProcessing"/>
+        <Class IRI="#IndustrialProcessing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherKnowledgeConveyance"/>
+        <Class IRI="#MethodForDeliveringKnowledge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherMaterialAttributes"/>
+        <Class IRI="#Materials_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherMiningAndQuarrying"/>
+        <Class IRI="#MiningAndQuarrying"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherMiningAndQuarryingNEC"/>
+        <Class IRI="#MiningAndQuarryingNEC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherRenewableEnergy"/>
+        <Class IRI="#RenewableEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherServiceActivities"/>
+        <Class IRI="#SICCodes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherSpecialFunction"/>
+        <Class IRI="#GeneralClothingProvidingCoverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherSpecializedLighting"/>
+        <Class IRI="#Lighting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherUsefulEnergy"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#AcquiringUsefulEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherWasteSource"/>
+        <Class IRI="#WasteSource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherWaterAcquiringAndExtracting"/>
+        <Class IRI="#AcquiringAndExtracting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outdoor"/>
+        <Class IRI="#DistributingLight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutdoorEmergencyLighting"/>
+        <Class IRI="#LightingOutdoor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OwnershipModel"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OwningAndOccupancyModel"/>
+        <Class IRI="#ProvideSpecificShelterType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Packaging"/>
+        <Class IRI="#IndustrialProcessing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PersonalDevelopment"/>
+        <Class IRI="#Recreation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PersonalSafety"/>
+        <Class IRI="#GeneralClothingProvidingCoverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PipelineNetwork"/>
+        <Class IRI="#ViaPipeline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PipelineSystemStorage"/>
+        <Class IRI="#ViaPipeline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlantMetabolism"/>
+        <Class IRI="#FilteringAndTreatingVirginWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlantMetabolism"/>
+        <Class IRI="#TreatingWastewater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlantProduct"/>
+        <Class IRI="#ProducingFinishedMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlantPropagation"/>
+        <Class IRI="#CropAndAnimalProductionHuntingAndRelatedServiceActivities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlantPropagation"/>
+        <Class IRI="#PlantPropagation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plastic"/>
+        <Class IRI="#ProducingFinishedMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plumbing"/>
+        <Class IRI="#RecoveryWastewater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Polymer"/>
+        <Class IRI="#Plastic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PortableLigting"/>
+        <Class IRI="#Lighting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostHarvestCropActivities"/>
+        <Class IRI="#SupportActivitiesToAgricultureAndPostHarvestCropActivities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreparationAndSpinningOfTextileFibres"/>
+        <Class IRI="#SpinningWeavingAndFinishingOfTextiles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Preparing"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Preserving"/>
+        <Class IRI="#IndustrialProcessing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreventingAndTreatingDisease"/>
+        <Class IRI="#Health"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrintedMaterial"/>
+        <Class IRI="#IndustrialManufacturing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Processing"/>
+        <Class IRI="#Preparing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcessingAndPreservingOfFishCrustaceansAndMolluscs"/>
+        <Class IRI="#ManufacturingOfFoodProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcessingAndPreservingOfFishCrustaceansAndMolluscs"/>
+        <Class IRI="#ProcessingAndPreservingOfFishCrustaceansAndMolluscs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcessingAndPreservingOfMeat"/>
+        <Class IRI="#ManufacturingOfFoodProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcessingAndPreservingOfMeat"/>
+        <Class IRI="#ProcessingAndPreservingOfMeat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcessingAndPresevingOfFruitAndVegetables"/>
+        <Class IRI="#ManufacturingOfFoodProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcessingAndPresevingOfFruitAndVegetables"/>
+        <Class IRI="#ProcessingAndPresevingOfFruitAndVegetables"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProducingFinishedMaterial"/>
+        <Class IRI="#RefininFinishedMaterialForProductManufacturing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProfessionalScientificAndTechnicalActivities"/>
+        <Class IRI="#SICCodes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProvideSpecificFunctionsOfBuildingOrStructure"/>
+        <Class IRI="#Shelter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProvideSpecificShelterType"/>
+        <Class IRI="#Shelter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProvidesPower"/>
+        <Class IRI="#GeneralClothingProvidingCoverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProvidingSecurity"/>
+        <Class IRI="#BuildingServiceOrLifeSupportSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PublicAdministrationAndDefenceCompulsarySocialSecurity"/>
+        <Class IRI="#SICCodes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PublicHealthCampaign"/>
+        <Class IRI="#PreventingAndTreatingDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuarryingOfStoneSandAndClay"/>
+        <Class IRI="#OtherMiningAndQuarrying"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuarryingOfStoneSandAndClay"/>
+        <Class IRI="#QuarryingOfStoneSandAndClay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RailNetwork"/>
+        <Class IRI="#ViaRail"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RailStorage"/>
+        <Class IRI="#ViaRail"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RailSystemNode"/>
+        <Class IRI="#ViaRail"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RailVehicle"/>
+        <Class IRI="#ViaRail"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rainwater"/>
+        <Class IRI="#AcquiringAndExtracting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RaisingOfCamelsAndCamelids"/>
+        <Class IRI="#AnimalProduction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RaisingOfCattleAndBuffaloes"/>
+        <Class IRI="#AnimalProduction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RaisingOfHorsesAndOtherEquines"/>
+        <Class IRI="#AnimalProduction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RaisingOfOtherAnimals"/>
+        <Class IRI="#AnimalProduction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RaisingOfPoultry"/>
+        <Class IRI="#AnimalProduction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RaisingOfSheepAndGoats"/>
+        <Class IRI="#AnimalProduction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RaisingOfSwineOrPigs"/>
+        <Class IRI="#AnimalProduction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reading"/>
+        <Class IRI="#Recreation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RealEstateActivities"/>
+        <Class IRI="#SICCodes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RecordAndDataManagement"/>
+        <Class IRI="#ManagingHealthcare"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recovery"/>
+        <Class IRI="#Recycling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RecoveryWastewater"/>
+        <Class IRI="#WaterAndWasteWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recreation"/>
+        <Class IRI="#HumanBenefit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recycling"/>
+        <Class IRI="#WasteSource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RecyclingAndReclaimingInnovation"/>
+        <Class IRI="#EcologicalHealth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RefininFinishedMaterialForProductManufacturing"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#MaterialsAndManufacturing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Refining"/>
+        <Class IRI="#IndustrialProcessing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reflects"/>
+        <Class IRI="#Materials_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RehabilitativeCare"/>
+        <Class IRI="#DeliveringSpecificTypeOfCare"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RemoteCare"/>
+        <Class IRI="#DeliveringSpecificTypeOfCare"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RenewableEnergy"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#AcquiringUsefulEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RescueAndSurveillanceTechnology"/>
+        <Class IRI="#InformationTechnologyDataHarvestingAndComputing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reservoir"/>
+        <Class IRI="#Storing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Residential"/>
+        <Class IRI="#ProvideSpecificShelterType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResistsBlocksAbsorbs"/>
+        <Class IRI="#Materials_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Retains"/>
+        <Class IRI="#Stores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reusing"/>
+        <Class IRI="#DisposalAndRecovery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoadNetwork"/>
+        <Class IRI="#ViaRoad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoadSystemNode"/>
+        <Class IRI="#ViaRoad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoadVehicle"/>
+        <Class IRI="#ViaRoad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roof"/>
+        <Class IRI="#BuildingShell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sanitizing"/>
+        <Class IRI="#Preserving"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sediment"/>
+        <Class IRI="#ProducingFinishedMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeedProcessingForPropagation"/>
+        <Class IRI="#SupportActivitiesToAgricultureAndPostHarvestCropActivities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SelfImage"/>
+        <Class IRI="#Recreation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SellingAndBuying"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SensorTechnology"/>
+        <Class IRI="#InformationTechnologyDataHarvestingAndComputing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service"/>
+        <Class IRI="#ManagingHealthcare"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Setting"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Gravity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shelter"/>
+        <Class IRI="#HumanBenefit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ship"/>
+        <Class IRI="#ViaWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShippingNetwork"/>
+        <Class IRI="#ViaWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShippingNode"/>
+        <Class IRI="#ViaWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SilvicultureAndOtherForestryActivities"/>
+        <Class IRI="#ForestryAndLogging"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SilvicultureAndOtherForestryActivities"/>
+        <Class IRI="#SilvicultureAndOtherForestryActivities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SingleFamilyDwelling"/>
+        <Class IRI="#Residential"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software"/>
+        <Class IRI="#InformationTechnologyDataHarvestingAndComputing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software"/>
+        <Class IRI="#InfrastructureForDeliveringKnowledge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Solar"/>
+        <Class IRI="#RenewableEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SolarElectric"/>
+        <Class IRI="#Solar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SolarThermal"/>
+        <Class IRI="#Solar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorts"/>
+        <Class IRI="#Materials_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sound"/>
+        <Class IRI="#Amplifies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sound"/>
+        <Class IRI="#Filters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sound"/>
+        <Class IRI="#GivesOff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sound"/>
+        <Class IRI="#Reflects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sound"/>
+        <Class IRI="#ResistsBlocksAbsorbs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sound"/>
+        <Class IRI="#Retains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sound"/>
+        <Class IRI="#Transfers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpinningWeavingAndFinishingOfTextiles"/>
+        <Class IRI="#ManufacturingOfTextiles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SportsLighting"/>
+        <Class IRI="#OtherSpecializedLighting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StaysClean"/>
+        <Class IRI="#GeneralClothingProvidingCoverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stores"/>
+        <Class IRI="#Materials_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storing"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storing"/>
+        <Class IRI="#WaterAndWasteWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StreetLighting"/>
+        <Class IRI="#LightingOutdoor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StructuralCharacteristics"/>
+        <Class IRI="#Materials_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StructuralSystemElement"/>
+        <Class IRI="#StructureAndBuildingEnvelope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StructureAndBuildingEnvelope"/>
+        <Class IRI="#ProvideSpecificFunctionsOfBuildingOrStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SunProtection"/>
+        <Class IRI="#GeneralClothingProvidingCoverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupportActivitiesForAnimalProduction"/>
+        <Class IRI="#SupportActivitiesToAgricultureAndPostHarvestCropActivities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupportActivitiesForCropProduction"/>
+        <Class IRI="#SupportActivitiesToAgricultureAndPostHarvestCropActivities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupportActivitiesForOtherMiningAndQuarrying"/>
+        <Class IRI="#MiningSupportServiceActivities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupportActivitiesForOtherMiningAndQuarrying"/>
+        <Class IRI="#SupportActivitiesForOtherMiningAndQuarrying"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupportActivitiesForPetroleumAndNaturalGasExtraction"/>
+        <Class IRI="#MiningSupportServiceActivities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupportActivitiesForPetroleumAndNaturalGasExtraction"/>
+        <Class IRI="#SupportActivitiesForPetroleumAndNaturalGasExtraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupportActivitiesToAgricultureAndPostHarvestCropActivities"/>
+        <Class IRI="#CropAndAnimalProductionHuntingAndRelatedServiceActivities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupportServicesToForestry"/>
+        <Class IRI="#ForestryAndLogging"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupportServicesToForestry"/>
+        <Class IRI="#SupportServicesToForestry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SurfaceCharacteristics"/>
+        <Class IRI="#Materials_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SurfaceWaters"/>
+        <Class IRI="#AcquiringAndExtracting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Synthesis"/>
+        <Class IRI="#AcquiringAndExtracting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SyntheticBiologyInnovation"/>
+        <Class IRI="#EcologicalHealth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tank"/>
+        <Class IRI="#Storing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TeachingByDirectHumanInteraction"/>
+        <Class IRI="#MethodForDeliveringKnowledge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TeachingPrimarilyViaMediaIncludingOnline"/>
+        <Class IRI="#MethodForDeliveringKnowledge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemperatureControl"/>
+        <Class IRI="#GeneralClothingProvidingCoverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tension"/>
+        <Class IRI="#StructuralCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TheaterLighting"/>
+        <Class IRI="#OtherSpecializedLighting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tides"/>
+        <Class IRI="#Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transfers"/>
+        <Class IRI="#Conducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransportationAndStorage"/>
+        <Class IRI="#SICCodes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransportingAndDistributing"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TravelDwelling"/>
+        <Class IRI="#Residential"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TreatingWastewater"/>
+        <Class IRI="#WaterAndWasteWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UsingWater"/>
+        <Class IRI="#WaterAndWasteWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vactiontravel"/>
+        <Class IRI="#Recreation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VehicleLighting"/>
+        <Class IRI="#Lighting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ViaAir"/>
+        <Class IRI="#MovingAndStoringGoods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ViaAir"/>
+        <Class IRI="#MovingPeople"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ViaElectricityNetwork"/>
+        <Class IRI="#MovingAndStoringElectricity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ViaNetwork"/>
+        <Class IRI="#CollectingMovingAndStoringInformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ViaPipeline"/>
+        <Class IRI="#MovingAndStoringGoods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ViaRail"/>
+        <Class IRI="#MovingAndStoringGoods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ViaRail"/>
+        <Class IRI="#MovingPeople"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ViaRoad"/>
+        <Class IRI="#MovingAndStoringGoods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ViaRoad"/>
+        <Class IRI="#MovingPeople"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ViaWater"/>
+        <Class IRI="#MovingAndStoringGoods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ViaWater"/>
+        <Class IRI="#MovingPeople"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualTransport"/>
+        <Class IRI="#MovingAndStoringGoods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualTransport"/>
+        <Class IRI="#MovingPeople"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wall"/>
+        <Class IRI="#BuildingShell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warming"/>
+        <Class IRI="#TemperatureControl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WasteHarvestingAndResourceRecovery"/>
+        <Class IRI="#EcologicalHealth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WasteSource"/>
+        <Class IRI="#ExploringMiningExtractingRefiningMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WasteToEnergy"/>
+        <Class IRI="#RenewableEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wastewater"/>
+        <Class IRI="#AcquiringAndExtracting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wastewater"/>
+        <Class IRI="#ManagingWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WastewaterCollection"/>
+        <Class IRI="#RecoveryWastewater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Water"/>
+        <Class IRI="#Reflects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Water"/>
+        <Class IRI="#RenewableEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterAndWasteWater"/>
+        <Class IRI="#HumanBenefit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterOrLiquid"/>
+        <Class IRI="#Amplifies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterOrLiquid"/>
+        <Class IRI="#Filters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterOrLiquid"/>
+        <Class IRI="#GivesOff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterOrLiquid"/>
+        <Class IRI="#ResistsBlocksAbsorbs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterOrLiquid"/>
+        <Class IRI="#Retains"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterOrLiquid"/>
+        <Class IRI="#Transfers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterOrMoistureControl"/>
+        <Class IRI="#GeneralClothingProvidingCoverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterSupplySewerageWasteManagementAndRemediationActivities"/>
+        <Class IRI="#SICCodes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Waves"/>
+        <Class IRI="#Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeavingOfTextiles"/>
+        <Class IRI="#SpinningWeavingAndFinishingOfTextiles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcyles"/>
+        <Class IRI="#SICCodes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wind"/>
+        <Class IRI="#RenewableEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Window"/>
+        <Class IRI="#BuildingShell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WirelessChargingSystem"/>
+        <Class IRI="#InformationTechnologyDataHarvestingAndComputing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yield"/>
+        <Class IRI="#Materials_Attributes"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#AcquiringUsefulEnergy"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ConvertingFuelsToElectricity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Animals"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Insects"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Plants"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Animals"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Plants"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#BySynthesis"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Fungiculture"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#SpaceFarming"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ThroughAgriculture"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ThroughAlgaculture"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ThroughAquaculture"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ThroughCloningAndGeneticReproduction"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#ThroughMariculture"/>
+        <Class IRI="#OtherGrowingAndProducingMethod"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Chemical"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Metal"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Mineral"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Plants"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Chemical"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Metal"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Plants"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Coal"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#NaturalGas"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Oil"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Peat"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Shale"/>
+        <Class IRI="#OtherFossilDerivate"/>
+        <Class IRI="#OtherFossilDerivative"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Combustion"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Geothermal"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#NuclearReaction"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Combustion"/>
+        <Class IRI="#GasRecovery"/>
+        <Class IRI="#HeatCapture"/>
+        <Class IRI="#LiquificationOrGasification"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#DirectMechanicalOrKinetic"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#SteamOrHotWater"/>
+        <Class IRI="#ChemicalConversion"/>
+        <Class IRI="#OtherFuelConversionToElectricity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Electromagnetic"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Gravity"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#TemperatureDifferential"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Vibration"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Electromagnetic"/>
+        <Class IRI="#Electiricy"/>
+        <Class IRI="#Heat"/>
+        <Class IRI="#KineticEnergy"/>
+        <Class IRI="#Light"/>
+        <Class IRI="#Sound"/>
+        <Class IRI="#WaterOrLiquid"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Electromagnetic"/>
+        <Class IRI="#Electricity"/>
+        <Class IRI="#Heat"/>
+        <Class IRI="#KineticEnergy"/>
+        <Class IRI="#Light"/>
+        <Class IRI="#Sound"/>
+        <Class IRI="#WaterOrLiquid"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Electromagnetic"/>
+        <Class IRI="#Electricity"/>
+        <Class IRI="#Heat"/>
+        <Class IRI="#Kinetic_energy"/>
+        <Class IRI="#Light"/>
+        <Class IRI="#Sound"/>
+        <Class IRI="#Water"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#FissionReaction"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#FusionReaction"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#FuelCell"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#OtherElectroChemical"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Fungiculture"/>
+        <Class IRI="#AnimalProduct"/>
+        <Class IRI="#FromAgriculture"/>
+        <Class IRI="#FromAlgaculture"/>
+        <Class IRI="#FromAquaculture"/>
+        <Class IRI="#FromMariculture"/>
+        <Class IRI="#FromSilvaculture"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Fungiculture"/>
+        <Class IRI="#Cloning"/>
+        <Class IRI="#FromAgriculture"/>
+        <Class IRI="#FromAlgaculture"/>
+        <Class IRI="#FromFreshwaterFishingAndAquaculture"/>
+        <Class IRI="#FromSaltwaterAndMariculture"/>
+        <Class IRI="#FromSilvaculture"/>
+        <Class IRI="#OtherBioSource"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Geothermal"/>
+        <Class IRI="#FossilResource"/>
+        <Class IRI="#HumanAndAnimalPower"/>
+        <Class IRI="#Hydrogen"/>
+        <Class IRI="#NuclearResource"/>
+        <Class IRI="#OtherUsefulEnergy"/>
+        <Class IRI="#RenewableEnergy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#GeothermalSteamPower"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#GroundSource"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#WaterSource"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Gravity"/>
+        <Class IRI="#ChemicalTreatment"/>
+        <Class IRI="#Filtering"/>
+        <Class IRI="#Heating"/>
+        <Class IRI="#PlantMetabolism"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Gravity"/>
+        <Class IRI="#ChemicalTreatment"/>
+        <Class IRI="#Filtration"/>
+        <Class IRI="#Heating"/>
+        <Class IRI="#OtherFilteringAndTreatingVirginWater"/>
+        <Class IRI="#PlantMetabolism"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#GrowingAndProducing"/>
+        <Class IRI="#DisposalAndRecovery"/>
+        <Class IRI="#IndustrialProcessing"/>
+        <Class IRI="#Preparing"/>
+        <Class IRI="#SellingAndBuying"/>
+        <Class IRI="#Storing"/>
+        <Class IRI="#TransportingAndDistributing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#MaterialsAndManufacturing"/>
+        <Class IRI="#Clothing"/>
+        <Class IRI="#EcologicalHealth"/>
+        <Class IRI="#Education"/>
+        <Class IRI="#Food"/>
+        <Class IRI="#Health"/>
+        <Class IRI="#Lighting"/>
+        <Class IRI="#Mobility"/>
+        <Class IRI="#Recreation"/>
+        <Class IRI="#Shelter"/>
+        <Class IRI="#WaterAndWasteWater"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Metal"/>
+        <Class IRI="#BioSource"/>
+        <Class IRI="#EarthAggregate"/>
+        <Class IRI="#FossilResource"/>
+        <Class IRI="#OtherExploringMiningExtractingRefiningMaterial"/>
+        <Class IRI="#WasteSource"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Photoelectric"/>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Piezoelectric"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#TemperatureDifferential"/>
+        <Class IRI="#Currents"/>
+        <Class IRI="#Hydroelectric"/>
+        <Class IRI="#Liquid"/>
+        <Class IRI="#Tides"/>
+        <Class IRI="#Waves"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#TemperatureDifferential"/>
+        <Class IRI="#Currents"/>
+        <Class IRI="#Hydroelectric"/>
+        <Class IRI="#Tides"/>
+        <Class IRI="#Waves"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AccomodationAndFoodServiceActivities"/>
+        <Class IRI="#ActivitiesOfExtraterritorialOrganizationAndBodies"/>
+        <Class IRI="#ActivitiesOfHouseholdsAsEmployersUndifferentiatedGoodsAndServicesProducingActivitiesOfHouseholdsForOwnUse"/>
+        <Class IRI="#AdministrativeAndSupportServiceActivities"/>
+        <Class IRI="#AgricultureForestryAndFishing"/>
+        <Class IRI="#ArtsEntertainmentAndRecreation"/>
+        <Class IRI="#Construction"/>
+        <Class IRI="#Education"/>
+        <Class IRI="#ElectricityGasSteamAndAirconditioningSupply"/>
+        <Class IRI="#FinancialAndInsuranceActivities"/>
+        <Class IRI="#HumanHealthAndSocialWorkActivities"/>
+        <Class IRI="#InformationAndCommunication"/>
+        <Class IRI="#Manufacturing"/>
+        <Class IRI="#MiningAndQuarrying"/>
+        <Class IRI="#OtherServiceActivities"/>
+        <Class IRI="#ProfessionalScientificAndTechnicalActivities"/>
+        <Class IRI="#PublicAdministrationAndDefenceCompulsarySocialSecurity"/>
+        <Class IRI="#RealEstateActivities"/>
+        <Class IRI="#TransportationAndStorage"/>
+        <Class IRI="#WaterSupplySewerageWasteManagementAndRemediationActivities"/>
+        <Class IRI="#WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcyles"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AcquiringAndExtracting"/>
+        <Class IRI="#DistributingCleanWater"/>
+        <Class IRI="#FilteringAndTreatingVirginWater"/>
+        <Class IRI="#FindingAndMonitoring"/>
+        <Class IRI="#RecoveryWastewater"/>
+        <Class IRI="#Storing"/>
+        <Class IRI="#TreatingWastewater"/>
+        <Class IRI="#UsingWater"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AirDistribution"/>
+        <Class IRI="#AirFiltration"/>
+        <Class IRI="#HeatingAndCooling"/>
+        <Class IRI="#Insulating"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AirNetwork"/>
+        <Class IRI="#AirNode"/>
+        <Class IRI="#AirStorage"/>
+        <Class IRI="#AirVehcile"/>
+        <Class IRI="#Airplane"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Ambient"/>
+        <Class IRI="#DaylightTransmission"/>
+        <Class IRI="#Directed"/>
+        <Class IRI="#IndoorEmergencyLighting"/>
+        <Class IRI="#LightMagnification"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Ambient"/>
+        <Class IRI="#Directed"/>
+        <Class IRI="#OutdoorEmergencyLighting"/>
+        <Class IRI="#StreetLighting"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Amplifies"/>
+        <Class IRI="#Conducts"/>
+        <Class IRI="#OtherMaterialAttributes"/>
+        <Class IRI="#Reflects"/>
+        <Class IRI="#ResistsBlocksAbsorbs"/>
+        <Class IRI="#Sorts"/>
+        <Class IRI="#Stores"/>
+        <Class IRI="#StructuralCharacteristics"/>
+        <Class IRI="#SurfaceCharacteristics"/>
+        <Class IRI="#Yield"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AnimalDrinking"/>
+        <Class IRI="#DomesticUse"/>
+        <Class IRI="#HumanDrinking"/>
+        <Class IRI="#IndustrialUse"/>
+        <Class IRI="#Irrigation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AnimalProduct"/>
+        <Class IRI="#Composite"/>
+        <Class IRI="#IndustrialChemical"/>
+        <Class IRI="#MetalAndAlloy"/>
+        <Class IRI="#OtherFinishedMaterial"/>
+        <Class IRI="#PlantProduct"/>
+        <Class IRI="#Plastic"/>
+        <Class IRI="#Sediment"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AnimalProduction"/>
+        <Class IRI="#GrowingOfNonPerennialCrops"/>
+        <Class IRI="#GrowingPerennialCrops"/>
+        <Class IRI="#HuntingTrappingAndRelatedServiceActivities"/>
+        <Class IRI="#MixedFarming"/>
+        <Class IRI="#PlantPropagation"/>
+        <Class IRI="#SupportActivitiesToAgricultureAndPostHarvestCropActivities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ApparelForAthletic"/>
+        <Class IRI="#InsectOrPestRepellant"/>
+        <Class IRI="#OtherSpecialFunction"/>
+        <Class IRI="#PersonalSafety"/>
+        <Class IRI="#ProvidesPower"/>
+        <Class IRI="#StaysClean"/>
+        <Class IRI="#SunProtection"/>
+        <Class IRI="#TemperatureControl"/>
+        <Class IRI="#WaterOrMoistureControl"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Aquaculture"/>
+        <Class IRI="#Fishing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Atmosphere"/>
+        <Class IRI="#Desalinization"/>
+        <Class IRI="#Groundwater"/>
+        <Class IRI="#OtherWaterAcquiringAndExtracting"/>
+        <Class IRI="#Rainwater"/>
+        <Class IRI="#SurfaceWaters"/>
+        <Class IRI="#Synthesis"/>
+        <Class IRI="#Wastewater"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BigDataInnovation"/>
+        <Class IRI="#CircuitsAndElectronicComponentsAndMaterial"/>
+        <Class IRI="#ComputerHardware"/>
+        <Class IRI="#ConnectivityInnovation"/>
+        <Class IRI="#GeneralRobotics"/>
+        <Class IRI="#InformationSorageTechnology"/>
+        <Class IRI="#InteractiveElectronics"/>
+        <Class IRI="#InternetEnabledDevice"/>
+        <Class IRI="#InternetPortalAndExchange"/>
+        <Class IRI="#MobileApp"/>
+        <Class IRI="#MobileHardware"/>
+        <Class IRI="#OnlineLeasingAndRentingOfGood"/>
+        <Class IRI="#OpenSourceInnovationPlatform"/>
+        <Class IRI="#RescueAndSurveillanceTechnology"/>
+        <Class IRI="#SensorTechnology"/>
+        <Class IRI="#Software"/>
+        <Class IRI="#WirelessChargingSystem"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Biofuel"/>
+        <Class IRI="#OtherRenewableEnergy"/>
+        <Class IRI="#Solar"/>
+        <Class IRI="#WasteToEnergy"/>
+        <Class IRI="#Water"/>
+        <Class IRI="#Wind"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BiologicallyInspiredTechnologyAndProcess"/>
+        <Class IRI="#CleaningAndSanitation"/>
+        <Class IRI="#GreenChemistry"/>
+        <Class IRI="#RecyclingAndReclaimingInnovation"/>
+        <Class IRI="#SyntheticBiologyInnovation"/>
+        <Class IRI="#WasteHarvestingAndResourceRecovery"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BuildingServiceOrLifeSupportSystem"/>
+        <Class IRI="#MonitoringAndControl"/>
+        <Class IRI="#StructureAndBuildingEnvelope"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BuildingShell"/>
+        <Class IRI="#FoundationOrFooting"/>
+        <Class IRI="#StructuralSystemElement"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BusinessSpace"/>
+        <Class IRI="#Industry"/>
+        <Class IRI="#Innovation"/>
+        <Class IRI="#Material"/>
+        <Class IRI="#Materials_Attributes"/>
+        <Class IRI="#Organization"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BusinessSpace"/>
+        <Class IRI="#Industry"/>
+        <Class IRI="#Innovation"/>
+        <Class IRI="#Material"/>
+        <Class IRI="#Materials_Attributes"/>
+        <Class IRI="#Organization"/>
+        <Class IRI="#SICCodes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BusinessSpace"/>
+        <Class IRI="#Industry"/>
+        <Class IRI="#Innovation"/>
+        <Class IRI="#Material"/>
+        <Class IRI="#Organization"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Ceiling"/>
+        <Class IRI="#Door"/>
+        <Class IRI="#Floor"/>
+        <Class IRI="#Roof"/>
+        <Class IRI="#Wall"/>
+        <Class IRI="#Window"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CleaningBuilding"/>
+        <Class IRI="#CleaningContent"/>
+        <Class IRI="#ComfortAndAesthetic"/>
+        <Class IRI="#DistributingLight"/>
+        <Class IRI="#DistributingPower"/>
+        <Class IRI="#MaintainingTemperatureAndAirQuality"/>
+        <Class IRI="#ManagingWater"/>
+        <Class IRI="#MovingPeopleWithinBuildings"/>
+        <Class IRI="#ProvidingSecurity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ClonedMaterial"/>
+        <Class IRI="#GrowingProduct"/>
+        <Class IRI="#PrintedMaterial"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Collecting"/>
+        <Class IRI="#Compacting"/>
+        <Class IRI="#Composting"/>
+        <Class IRI="#Disposing"/>
+        <Class IRI="#Reusing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CollectingMovingAndStoringInformation"/>
+        <Class IRI="#MovingAndStoringElectricity"/>
+        <Class IRI="#MovingAndStoringGoods"/>
+        <Class IRI="#MovingPeople"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Commercial"/>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#OwningAndOccupancyModel"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommunityParticipation"/>
+        <Class IRI="#Entertainment"/>
+        <Class IRI="#ExerciseAndSport"/>
+        <Class IRI="#FineArtsAndMusic"/>
+        <Class IRI="#GeneralRestOrRelaxation"/>
+        <Class IRI="#Hobby"/>
+        <Class IRI="#InventingAndExperimenting"/>
+        <Class IRI="#LifeLearning"/>
+        <Class IRI="#PersonalDevelopment"/>
+        <Class IRI="#Reading"/>
+        <Class IRI="#SelfImage"/>
+        <Class IRI="#Vactiontravel"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Compression"/>
+        <Class IRI="#Tension"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cooking"/>
+        <Class IRI="#Processing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cooling"/>
+        <Class IRI="#Warming"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cosmetic"/>
+        <Class IRI="#CosmeticService"/>
+        <Class IRI="#Fashion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CropAndAnimalProductionHuntingAndRelatedServiceActivities"/>
+        <Class IRI="#FishingAndAquaculture"/>
+        <Class IRI="#ForestryAndLogging"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CurriculaAndTeachingTechnique"/>
+        <Class IRI="#InfluencingReceptivity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeliveringKnowledge"/>
+        <Class IRI="#EnhancingLearningAbilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeliveringSpecificTypeOfCare"/>
+        <Class IRI="#ManagingHealthcare"/>
+        <Class IRI="#PreventingAndTreatingDisease"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DentalHealthManagement"/>
+        <Class IRI="#Diagnostic"/>
+        <Class IRI="#DisinfectingAndSanitizing"/>
+        <Class IRI="#ExerciseAndRelaxationTechnique"/>
+        <Class IRI="#InterventionToolAndProcedure"/>
+        <Class IRI="#MedicalDevice"/>
+        <Class IRI="#Medicine"/>
+        <Class IRI="#MethodForDeliveringMedicine"/>
+        <Class IRI="#PublicHealthCampaign"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DentalHealthManagement"/>
+        <Class IRI="#Diagnostic"/>
+        <Class IRI="#DisinfectingAndSanitizing"/>
+        <Class IRI="#ExerciseAndRelaxationTechnique"/>
+        <Class IRI="#InterventionToolAndProcedure"/>
+        <Class IRI="#Medicine"/>
+        <Class IRI="#MethodForDeliveringMedicine"/>
+        <Class IRI="#PublicHealthCampaign"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DistillingRectifyingAndBlendingOfSpirits"/>
+        <Class IRI="#ManufactureOfMaltLiquorsAndMalt"/>
+        <Class IRI="#ManufactureOfSoftDrinksProductionOfMineralWatersAndOtherBottledWaters"/>
+        <Class IRI="#ManufactureOfWines"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ElectricityStorage"/>
+        <Class IRI="#Electricitynode"/>
+        <Class IRI="#ViaElectricityNetwork"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EmergencyOrTemporaryDwelling"/>
+        <Class IRI="#MultiFamilyDwelling"/>
+        <Class IRI="#SingleFamilyDwelling"/>
+        <Class IRI="#TravelDwelling"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EmergencyResponseAndTransport"/>
+        <Class IRI="#EmergencyTreatment"/>
+        <Class IRI="#EndOfLifeCare"/>
+        <Class IRI="#LongTermCare"/>
+        <Class IRI="#RehabilitativeCare"/>
+        <Class IRI="#RemoteCare"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EnergyPowerAndFuel"/>
+        <Class IRI="#HumanBenefit"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EnergyPowerAndFuel"/>
+        <Class IRI="#HumanBenefit"/>
+        <Class IRI="#InformationTechnologyDataHarvestingAndComputing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EntertainmentOrVariableLighting"/>
+        <Class IRI="#LaserLighting"/>
+        <Class IRI="#SportsLighting"/>
+        <Class IRI="#TheaterLighting"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EquipmentAndSupply"/>
+        <Class IRI="#Facilities"/>
+        <Class IRI="#Software"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ExpandingLifeExperienceIncludingTravel"/>
+        <Class IRI="#HybridTeaching"/>
+        <Class IRI="#OnTheJobTraining"/>
+        <Class IRI="#OtherKnowledgeConveyance"/>
+        <Class IRI="#TeachingByDirectHumanInteraction"/>
+        <Class IRI="#TeachingPrimarilyViaMediaIncludingOnline"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ExploringMiningExtractingRefiningMaterial"/>
+        <Class IRI="#RefininFinishedMaterialForProductManufacturing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ExteriorSurfaceCovering"/>
+        <Class IRI="#InteriorSurfaceCovering"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ExtractionOfCrudePetroleum"/>
+        <Class IRI="#ExtractionOfNaturalGas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ExtractionOfCrudePretoleumAndNaturalGas"/>
+        <Class IRI="#MiningOfCoalAndIgnite"/>
+        <Class IRI="#MiningOfMetalOnes"/>
+        <Class IRI="#MiningSupportServiceActivities"/>
+        <Class IRI="#OtherMiningAndQuarrying"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ExtractionOfPeat"/>
+        <Class IRI="#ExtractionOfSalt"/>
+        <Class IRI="#MiningOfChemicalAndFertilizerMinerals"/>
+        <Class IRI="#OtherMiningAndQuarryingNEC"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FabricatingFinishedProduct"/>
+        <Class IRI="#ProducingFinishedMaterial"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FinishingOfTextiles"/>
+        <Class IRI="#PreparationAndSpinningOfTextileFibres"/>
+        <Class IRI="#WeavingOfTextiles"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FreightStorage"/>
+        <Class IRI="#RoadNetwork"/>
+        <Class IRI="#RoadSystemNode"/>
+        <Class IRI="#RoadVehicle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FreshWater"/>
+        <Class IRI="#Wastewater"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FreshwaterAquaculture"/>
+        <Class IRI="#MarineAquaculture"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FreshwaterFishing"/>
+        <Class IRI="#MarineFishing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GatheringOfNonwoodForestProducts"/>
+        <Class IRI="#Logging"/>
+        <Class IRI="#SilvicultureAndOtherForestryActivities"/>
+        <Class IRI="#SupportServicesToForestry"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GrowingOfBeverageCrops"/>
+        <Class IRI="#GrowingOfCitrusFruits"/>
+        <Class IRI="#GrowingOfGrapes"/>
+        <Class IRI="#GrowingOfOleaginousFruits"/>
+        <Class IRI="#GrowingOfOtherPerennialCrops"/>
+        <Class IRI="#GrowingOfOtherTreeAndBushFruitsAndNuts"/>
+        <Class IRI="#GrowingOfPomeFruitsAndStoneFruits"/>
+        <Class IRI="#GrowingOfSpicesAromaticDrugAndPharmaceuticalCrops"/>
+        <Class IRI="#GrowingOfTropicalAndSubtropicalFruits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GrowingOfCerealsExceptRiceLeguminousCropsAndOilSeeds"/>
+        <Class IRI="#GrowingOfFibreCrops"/>
+        <Class IRI="#GrowingOfOtherNonPerennialCrops"/>
+        <Class IRI="#GrowingOfRice"/>
+        <Class IRI="#GrowingOfSugarCane"/>
+        <Class IRI="#GrowingOfTobacco"/>
+        <Class IRI="#GrowingOfVegetablesAndmelonsRootsAndTubers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HospitalOrMedical"/>
+        <Class IRI="#Office"/>
+        <Class IRI="#OtherCommercialAndMixedUse"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Indoor"/>
+        <Class IRI="#Outdoor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#InformationStorage"/>
+        <Class IRI="#Informationnode"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#InfrastructureForDeliveringKnowledge"/>
+        <Class IRI="#MethodForDeliveringKnowledge"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LightingControlAndManagement"/>
+        <Class IRI="#LightingIndoor"/>
+        <Class IRI="#LightingOutdoor"/>
+        <Class IRI="#OtherSpecializedLighting"/>
+        <Class IRI="#PortableLigting"/>
+        <Class IRI="#VehicleLighting"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ManufactureOfBakeryProducts"/>
+        <Class IRI="#ManufactureOfCocoaChocolateAndSugarConfectionary"/>
+        <Class IRI="#ManufactureOfMacaroniNoodlesCouscousAndSimilarFarinaceousProducts"/>
+        <Class IRI="#ManufactureOfOtherFoodProductsNEC"/>
+        <Class IRI="#ManufactureOfPreparedMealsAndDishes"/>
+        <Class IRI="#ManufactureOfSugar"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ManufactureOfBeverages"/>
+        <Class IRI="#ManufactureOfTobaccoProducts"/>
+        <Class IRI="#ManufacturingOfFoodProducts"/>
+        <Class IRI="#ManufacturingOfTextiles"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ManufactureOfCarpetsAndRugs"/>
+        <Class IRI="#ManufactureOfCordageRopeTwineAndNetting"/>
+        <Class IRI="#ManufactureOfMadeUpTextileArticlesExceptApparel"/>
+        <Class IRI="#ManufactureOfOtherTextileNEC"/>
+        <Class IRI="#ManufactureofKnittedAndCrochetedFabrics"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ManufactureOfDairyProducts"/>
+        <Class IRI="#ManufactureOfGrainMillProductsStarchesAndStarchProducts"/>
+        <Class IRI="#ManufactureOfPreparedAnimalFeeds"/>
+        <Class IRI="#ManufactureOfVegetableAndAnimalOilsAndFats"/>
+        <Class IRI="#ManufactureofOtherFoodProducts"/>
+        <Class IRI="#ProcessingAndPreservingOfFishCrustaceansAndMolluscs"/>
+        <Class IRI="#ProcessingAndPreservingOfMeat"/>
+        <Class IRI="#ProcessingAndPresevingOfFruitAndVegetables"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ManufactureOfStarchesAndStarchProducts"/>
+        <Class IRI="#ManufactureofGrainMillProducts"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ManufacturingOfOtherTextiles"/>
+        <Class IRI="#SpinningWeavingAndFinishingOfTextiles"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MiningAndQuarryingNEC"/>
+        <Class IRI="#QuarryingOfStoneSandAndClay"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MiningOfHardCoal"/>
+        <Class IRI="#MiningOfIgnite"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MiningOfIronOres"/>
+        <Class IRI="#MiningOfNonFerrousMetalOres"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MiningOfOtherNonFerrousMetalOres"/>
+        <Class IRI="#MiningOfUraniumAndThoriumOres"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherIndustrialProcessing"/>
+        <Class IRI="#Packaging"/>
+        <Class IRI="#Preserving"/>
+        <Class IRI="#Refining"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherWasteSource"/>
+        <Class IRI="#Recycling"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PipelineNetwork"/>
+        <Class IRI="#PipelineSystemStorage"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Plumbing"/>
+        <Class IRI="#WastewaterCollection"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PostHarvestCropActivities"/>
+        <Class IRI="#SeedProcessingForPropagation"/>
+        <Class IRI="#SupportActivitiesForAnimalProduction"/>
+        <Class IRI="#SupportActivitiesForCropProduction"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ProvideSpecificFunctionsOfBuildingOrStructure"/>
+        <Class IRI="#ProvideSpecificShelterType"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#RailNetwork"/>
+        <Class IRI="#RailStorage"/>
+        <Class IRI="#RailSystemNode"/>
+        <Class IRI="#RailVehicle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#RaisingOfCamelsAndCamelids"/>
+        <Class IRI="#RaisingOfCattleAndBuffaloes"/>
+        <Class IRI="#RaisingOfHorsesAndOtherEquines"/>
+        <Class IRI="#RaisingOfOtherAnimals"/>
+        <Class IRI="#RaisingOfPoultry"/>
+        <Class IRI="#RaisingOfSheepAndGoats"/>
+        <Class IRI="#RaisingOfSwineOrPigs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#RecordAndDataManagement"/>
+        <Class IRI="#Service"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Reservoir"/>
+        <Class IRI="#Tank"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Ship"/>
+        <Class IRI="#ShippingNetwork"/>
+        <Class IRI="#ShippingNode"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SolarElectric"/>
+        <Class IRI="#SolarThermal"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SupportActivitiesForOtherMiningAndQuarrying"/>
+        <Class IRI="#SupportActivitiesForPetroleumAndNaturalGasExtraction"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ViaAir"/>
+        <Class IRI="#ViaPipeline"/>
+        <Class IRI="#ViaRail"/>
+        <Class IRI="#ViaRoad"/>
+        <Class IRI="#ViaWater"/>
+        <Class IRI="#VirtualTransport"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ViaAir"/>
+        <Class IRI="#ViaRail"/>
+        <Class IRI="#ViaRoad"/>
+        <Class IRI="#ViaWater"/>
+        <Class IRI="#VirtualTransport"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Metal"/>
+        <NamedIndividual IRI="#Aluminum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/068875/ontologies/2018/9/Innovation#Mineral"/>
+        <NamedIndividual IRI="#Ceramic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Glass"/>
+        <NamedIndividual IRI="#Glass"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EntertainmentOrVariableLighting"/>
+        <NamedIndividual IRI="#GlassFloor_Advanced_Flooring_System_for_Athletic_Courts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Floor"/>
+        <NamedIndividual IRI="#GlassFloor_Advanced_Flooring_System_for_Athletic_Courts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Innovation"/>
+        <NamedIndividual IRI="#GlassFloor_Advanced_Flooring_System_for_Athletic_Courts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SportsLighting"/>
+        <NamedIndividual IRI="#GlassFloor_Advanced_Flooring_System_for_Athletic_Courts"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaterial"/>
+        <NamedIndividual IRI="#GlassFloor_Advanced_Flooring_System_for_Athletic_Courts"/>
+        <NamedIndividual IRI="#Aluminum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaterial"/>
+        <NamedIndividual IRI="#GlassFloor_Advanced_Flooring_System_for_Athletic_Courts"/>
+        <NamedIndividual IRI="#Ceramic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaterial"/>
+        <NamedIndividual IRI="#GlassFloor_Advanced_Flooring_System_for_Athletic_Courts"/>
+        <NamedIndividual IRI="#Glass"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#GlassFloor_Advanced_Flooring_System_for_Athletic_Courts"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasInnovator"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMaterial"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasMaterial"/>
+        <ObjectProperty IRI="#isMaterialOf"/>
+    </InverseObjectProperties>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#hasMaterial"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#isMaterialOf"/>
+    </InverseFunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMaterial"/>
+        <Class IRI="#Innovation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMaterialOf"/>
+        <Class IRI="#Material"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMaterial"/>
+        <Class IRI="#Material"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMaterialOf"/>
+        <Class IRI="#Innovation"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDescription"/>
+        <Class IRI="#Innovation"/>
+    </DataPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
